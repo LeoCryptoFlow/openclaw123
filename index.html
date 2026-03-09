@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenClaw123 · 资源导航</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== 顶部导航 ===== -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🦞</span>
+        <span class="logo-text">OpenClaw<span class="accent">123</span></span>
+      </div>
+
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="搜索资源…"
+          autocomplete="off"
+          oninput="filterCards()"
+        />
+        <button class="search-clear" onclick="clearSearch()" title="清除">✕</button>
+      </div>
+
+      <nav class="top-nav" id="topNav">
+        <!-- 动态生成分类锚点 -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== 英雄区 ===== -->
+  <section class="hero">
+    <h1>小白也能用的<br /><span class="gradient-text">资源聚合导航</span></h1>
+    <p class="hero-sub">精选 AI · 学习 · 开发 · 设计 · 效率 工具，收藏即上手 🚀</p>
+    <div class="hero-stats" id="heroStats"></div>
+  </section>
+
+  <!-- ===== 主内容 ===== -->
+  <main class="container" id="mainContent">
+    <!-- 动态渲染分类卡片 -->
+  </main>
+
+  <!-- 无结果提示 -->
+  <div class="no-result" id="noResult" style="display:none">
+    <span>😅</span> 没有找到匹配的资源，换个关键词试试吧~
+  </div>
+
+  <!-- ===== 底部 ===== -->
+  <footer class="footer">
+    <p>OpenClaw123 · 持续更新中 · 
+      <a href="https://github.com" target="_blank">GitHub</a> 开源免费
+    </p>
+    <p class="footer-tip">点击卡片右上角 ⭐ 可收藏到"我的收藏"</p>
+  </footer>
+
+  <!-- ===== 悬浮收藏入口 ===== -->
+  <button class="fab" id="fabBtn" onclick="toggleFav()" title="我的收藏">
+    ⭐ <span id="fabCount">0</span>
+  </button>
+
+  <!-- 收藏抽屉 -->
+  <div class="drawer-overlay" id="drawerOverlay" onclick="toggleFav()"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer-header">
+      <h2>⭐ 我的收藏</h2>
+      <button onclick="toggleFav()">✕</button>
+    </div>
+    <div class="drawer-body" id="drawerBody">
+      <p class="empty-tip">还没有收藏，点击卡片右上角的 ⭐ 添加吧！</p>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
