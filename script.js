@@ -29,10 +29,10 @@ const DATA = [
       },
       {
         emoji: '🐧',
-        name: '腾讯版本',
-        url: '#',
-        desc: '腾讯版本正在内测中，敬请期待…',
-        tag: '内测中'
+        name: '腾讯 QClaw',
+        url: 'https://claw.guanjia.qq.com/',
+        desc: '腾讯电脑管家出品的 QClaw，已上线可用',
+        tag: '国内版'
       }
     ]
   },
@@ -79,6 +79,13 @@ const DATA = [
         tag: '博主'
       },
       {
+        emoji: '📝',
+        name: '刘小排',
+        url: 'https://mp.weixin.qq.com/s/H2DuoMR3Svoq_djWXAzA3Q',
+        desc: '公众号深度解读 OpenClaw 生态，干货满满值得关注',
+        tag: '博主'
+      },
+      {
         emoji: '📩',
         name: '投稿 / 合作',
         url: 'mailto:leogood@foxmail.com',
@@ -106,6 +113,20 @@ const DATA = [
         url: 'https://aixin.chat/',
         desc: 'Agent 互联互通平台，让 AI Agent 之间可以互相通讯和协作',
         tag: '新项目'
+      },
+      {
+        emoji: '🏠',
+        name: 'HomeClaw 介绍',
+        url: 'https://mp.weixin.qq.com/s/YkKCh5mOH-AR-Z23erDHFw',
+        desc: 'HomeClaw 深度介绍，了解家庭场景下的 AI 应用新方向',
+        tag: '文章'
+      },
+      {
+        emoji: '🌐',
+        name: '当 OpenClaw 接管互联网',
+        url: 'https://mp.weixin.qq.com/s/Vwqtw_lCNztE5dAI0c1jAQ',
+        desc: '深度好文，OpenClaw 如何改变互联网格局，必读',
+        tag: '文章'
       },
       {
         emoji: '🌍',
