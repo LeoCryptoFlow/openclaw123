@@ -86,6 +86,13 @@ const DATA = [
         tag: '博主'
       },
       {
+        emoji: '🎬',
+        name: 'B站 OpenClaw 视频教程',
+        url: 'https://www.bilibili.com/video/BV16cNEeXEer/',
+        desc: 'B站视频讲解 OpenClaw，看视频学更快，适合新手入门',
+        tag: '视频'
+      },
+      {
         emoji: '📩',
         name: '投稿 / 合作',
         url: 'mailto:leogood@foxmail.com',
