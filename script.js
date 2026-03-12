@@ -87,9 +87,9 @@ const DATA = [
       },
       {
         emoji: '🎬',
-        name: 'B站 OpenClaw 视频教程',
+        name: '安德烈·卡帕西：深入探索像ChatGPT这样的大语言模型',
         url: 'https://www.bilibili.com/video/BV16cNEeXEer/',
-        desc: 'B站视频讲解 OpenClaw，看视频学更快，适合新手入门',
+        desc: 'Andrej Karpathy 深入讲解大语言模型原理，B站1080P高清，AI入门必看',
         tag: '视频'
       },
       {
