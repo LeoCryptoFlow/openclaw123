@@ -104,6 +104,26 @@ body {
 }
 .top-nav a:hover { color: var(--text); border-color: var(--accent); }
 
+/* Language Switch */
+.lang-switch {
+  white-space: nowrap;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+  background: linear-gradient(135deg, rgba(108,99,255,.2), rgba(255,101,132,.2));
+  border: 1px solid var(--accent);
+  transition: all .2s;
+  flex-shrink: 0;
+}
+.lang-switch:hover {
+  background: linear-gradient(135deg, rgba(108,99,255,.35), rgba(255,101,132,.35));
+  transform: translateY(-1px);
+  box-shadow: 0 2px 12px rgba(108,99,255,.3);
+}
+
 /* ===== Hero ===== */
 .hero {
   text-align: center;
