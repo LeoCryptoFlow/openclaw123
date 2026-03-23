@@ -109,6 +109,35 @@ const DATA = [
     ]
   },
   {
+    id: 'reports',
+    icon: '📊',
+    name: 'Industry Reports & Insights',
+    desc: 'Authoritative research reports on AI Agent and OpenClaw industry trends',
+    items: [
+      {
+        emoji: '📋',
+        name: 'AI Agent Industry Report (WeChat Deep Dive)',
+        url: 'https://mp.weixin.qq.com/s/eGAzgZqJbbBjW34hGwe2bg',
+        desc: 'In-depth analysis of the AI Agent industry landscape and trends',
+        tag: 'Report'
+      },
+      {
+        emoji: '📈',
+        name: 'iiMedia: China AI Agent Industry Report',
+        url: 'https://www.iimedia.cn/c400/110111.html',
+        desc: 'Authoritative report by iiMedia Research on China\'s AI Agent market size and growth',
+        tag: 'iiMedia'
+      },
+      {
+        emoji: '🔍',
+        name: 'Analysys: AI Agent Market Insights',
+        url: 'https://www.analysys.cn/article/detail/20021171',
+        desc: 'By Analysys, deep insights into the AI Agent market landscape and future direction',
+        tag: 'Analysys'
+      }
+    ]
+  },
+  {
     id: 'future',
     icon: '🚀',
     name: 'Coming Soon · Stay Tuned',

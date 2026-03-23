@@ -109,6 +109,35 @@ const DATA = [
     ]
   },
   {
+    id: 'reports',
+    icon: '📊',
+    name: '咨询报告 · 行业洞察',
+    desc: '权威机构发布的 AI Agent 与 OpenClaw 行业研究报告',
+    items: [
+      {
+        emoji: '📋',
+        name: 'AI Agent 行业报告（微信深度解读）',
+        url: 'https://mp.weixin.qq.com/s/eGAzgZqJbbBjW34hGwe2bg',
+        desc: '深度解析 AI Agent 行业现状与趋势，干货满满的深度长文',
+        tag: '报告'
+      },
+      {
+        emoji: '📈',
+        name: '艾媒咨询：中国AI Agent行业研究报告',
+        url: 'https://www.iimedia.cn/c400/110111.html',
+        desc: '艾媒咨询权威发布，全面分析中国 AI Agent 市场规模与发展趋势',
+        tag: '艾媒咨询'
+      },
+      {
+        emoji: '🔍',
+        name: '易观分析：AI Agent市场洞察',
+        url: 'https://www.analysys.cn/article/detail/20021171',
+        desc: '易观分析出品，深入洞察 AI Agent 市场格局与未来走向',
+        tag: '易观分析'
+      }
+    ]
+  },
+  {
     id: 'future',
     icon: '🚀',
     name: '未来规划 · 值得期待',
