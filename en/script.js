@@ -62,6 +62,13 @@ const DATA = [
         url: 'https://www.skill-cn.com/',
         desc: 'Chinese Skill aggregator with the most Chinese-language Skills',
         tag: 'China'
+      },
+      {
+        emoji: '📑',
+        name: 'OpenClaw Skill Curated Collection',
+        url: 'https://my.feishu.cn/docx/P6zsdsgYco6i4XxLeIccvlpvnQe',
+        desc: 'Curated Skill collection on Feishu, well-organized by category for easy discovery',
+        tag: 'Curated'
       }
     ]
   },

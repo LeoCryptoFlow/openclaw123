@@ -62,6 +62,13 @@ const DATA = [
         url: 'https://www.skill-cn.com/',
         desc: '国内 Skill 聚合市场，中文 Skill 收录最全',
         tag: '国内'
+      },
+      {
+        emoji: '📑',
+        name: 'OpenClaw Skill 精选合集',
+        url: 'https://my.feishu.cn/docx/P6zsdsgYco6i4XxLeIccvlpvnQe',
+        desc: '飞书文档精选 Skill 合集，分类整理，一键查找你需要的 Skill',
+        tag: '精选'
       }
     ]
   },
