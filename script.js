@@ -151,6 +151,13 @@ const DATA = [
     desc: '正在路上的好东西，提前收藏不迷路',
     items: [
       {
+        emoji: '🏥',
+        name: '家庭健康龙虾系统',
+        url: 'https://x.com/runes_leo/status/2036468625171763599',
+        desc: '基于 OpenClaw 的家庭健康管理系统，AI 守护全家健康',
+        tag: '推文'
+      },
+      {
         emoji: '📱',
         name: '雷军的龙虾手机',
         url: '#',
@@ -177,13 +184,6 @@ const DATA = [
         url: 'https://mp.weixin.qq.com/s/Vwqtw_lCNztE5dAI0c1jAQ',
         desc: '深度好文，OpenClaw 如何改变互联网格局，必读',
         tag: '文章'
-      },
-      {
-        emoji: '🐦',
-        name: 'OpenClaw 未来展望（Twitter）',
-        url: 'https://x.com/runes_leo/status/2036468625171763599',
-        desc: '关于 OpenClaw 未来发展方向的深度探讨，值得关注',
-        tag: '推文'
       },
       {
         emoji: '🌍',

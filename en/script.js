@@ -151,6 +151,13 @@ const DATA = [
     desc: 'Exciting things on the way — bookmark now so you don\'t miss out',
     items: [
       {
+        emoji: '🏥',
+        name: 'Family Health Lobster System',
+        url: 'https://x.com/runes_leo/status/2036468625171763599',
+        desc: 'OpenClaw-based family health management system — AI protecting your family\'s health',
+        tag: 'Tweet'
+      },
+      {
         emoji: '📱',
         name: 'Lei Jun\'s Lobster Phone',
         url: '#',
@@ -177,13 +184,6 @@ const DATA = [
         url: 'https://mp.weixin.qq.com/s/Vwqtw_lCNztE5dAI0c1jAQ',
         desc: 'Must-read article on how OpenClaw is reshaping the internet landscape',
         tag: 'Article'
-      },
-      {
-        emoji: '🐦',
-        name: 'OpenClaw Future Vision (Twitter)',
-        url: 'https://x.com/runes_leo/status/2036468625171763599',
-        desc: 'Deep discussion on the future direction of OpenClaw, worth following',
-        tag: 'Tweet'
       },
       {
         emoji: '🌍',
