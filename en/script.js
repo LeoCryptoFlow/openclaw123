@@ -65,9 +65,9 @@ const DATA = [
       },
       {
         emoji: '📑',
-        name: 'OpenClaw Skill Curated Collection',
+        name: 'OpenClaw: From Beginner to Pro Guide',
         url: 'https://my.feishu.cn/docx/P6zsdsgYco6i4XxLeIccvlpvnQe',
-        desc: 'Curated Skill collection on Feishu, well-organized by category for easy discovery',
+        desc: 'Comprehensive OpenClaw guide from beginner to expert, detailed Feishu doc tutorial',
         tag: 'Curated'
       }
     ]

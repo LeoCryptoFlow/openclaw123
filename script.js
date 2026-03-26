@@ -65,9 +65,9 @@ const DATA = [
       },
       {
         emoji: '📑',
-        name: 'OpenClaw Skill 精选合集',
+        name: 'OpenClaw 从入门到精通指南',
         url: 'https://my.feishu.cn/docx/P6zsdsgYco6i4XxLeIccvlpvnQe',
-        desc: '飞书文档精选 Skill 合集，分类整理，一键查找你需要的 Skill',
+        desc: 'OpenClaw 从入门到精通指南，飞书文档详细教程，零基础也能快速上手',
         tag: '精选'
       }
     ]
